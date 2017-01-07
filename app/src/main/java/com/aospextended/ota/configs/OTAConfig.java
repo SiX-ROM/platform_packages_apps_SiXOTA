@@ -41,13 +41,13 @@ public class OTAConfig extends Properties {
     private final static String VERSION_POSITION = "version_position";
 
     private static OTAConfig mInstance;
-	private Context mContext;
+    private static Context mContext;
 
     private OTAConfig() {
     }
 
     public static OTAConfig getInstance(Context context) {
-		mContext = context;
+        mContext = context;
         if (mInstance == null) {
             mInstance = new OTAConfig();
             try {
