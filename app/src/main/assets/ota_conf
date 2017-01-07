@@ -9,7 +9,7 @@
 #
 ota_url=http://downloads.aospextended.com/ota/
 release_type=Stable
-device_name=ro.product.device
+device_name=ro.aex.device
 
 #
 # VERSION
