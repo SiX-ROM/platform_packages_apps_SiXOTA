@@ -41,11 +41,13 @@ public class OTAConfig extends Properties {
     private final static String VERSION_POSITION = "version_position";
 
     private static OTAConfig mInstance;
+	private Context mContext;
 
     private OTAConfig() {
     }
 
     public static OTAConfig getInstance(Context context) {
+		mContext = context;
         if (mInstance == null) {
             mInstance = new OTAConfig();
             try {
@@ -60,7 +62,8 @@ public class OTAConfig extends Properties {
     }
 
     public String getOtaUrl() {
-        return getProperty(OTAConfig.OTA_URL, "");
+		String deviceName = OTAUtils.getDeviceName(mContext);
+        return getProperty(OTAConfig.OTA_URL, "") + deviceName;
     }
 
     public String getReleaseType() {
