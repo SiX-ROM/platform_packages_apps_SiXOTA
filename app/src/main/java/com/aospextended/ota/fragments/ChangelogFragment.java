@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.fusionjack.slimota.fragments;
+package com.aospextended.ota.fragments;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -24,8 +24,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.fusionjack.slimota.R;
-import com.fusionjack.slimota.utils.Changelog;
+import com.aospextended.ota.R;
+import com.aospextended.ota.utils.Changelog;
 
 public class ChangelogFragment extends PreferenceFragment {
 

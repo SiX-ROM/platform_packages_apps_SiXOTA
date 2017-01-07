@@ -1,4 +1,4 @@
-package com.fusionjack.slimota;
+package com.aospextended.ota;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
