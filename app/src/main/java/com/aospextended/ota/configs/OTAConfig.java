@@ -62,7 +62,7 @@ public class OTAConfig extends Properties {
     }
 
     public String getOtaUrl() {
-		String deviceName = OTAUtils.getDeviceName(mContext);
+        String deviceName = OTAUtils.getDeviceName(mContext);
         return getProperty(OTAConfig.OTA_URL, "") + deviceName;
     }
 
