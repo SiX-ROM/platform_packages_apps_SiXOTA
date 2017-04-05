@@ -32,7 +32,7 @@ device_name=ro.product.device
 # Version position: 3 (zero based)
 # Version format:
 #
-version_source=ro.modversion
+version_source=ro.pure.version
 version_delimiter=-
-version_position=3
+version_position=1
 version_format=yyyyMMdd
