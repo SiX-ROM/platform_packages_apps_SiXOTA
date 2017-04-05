@@ -18,8 +18,8 @@
 <resources>
 
     <!-- App -->
-    <string name="app_name">AEX Updates</string>
-    <string name="app_title">AEX Updates</string>
+    <string name="app_name">PureNexus Updates</string>
+    <string name="app_title">PureNexus Updates</string>
 
     <!-- Categories -->
     <string name="ota_category">OTA</string>

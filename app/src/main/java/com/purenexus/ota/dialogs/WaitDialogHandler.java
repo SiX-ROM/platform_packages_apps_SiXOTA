@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aospextended.ota.dialogs;
+package com.purenexus.ota.dialogs;
 
 import android.app.Activity;
 import android.app.Fragment;

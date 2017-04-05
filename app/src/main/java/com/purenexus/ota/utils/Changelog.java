@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.aospextended.ota.utils;
+package com.purenexus.ota.utils;
 
 import android.content.Context;
 import android.os.AsyncTask;
 
-import com.aospextended.ota.R;
+import com.purenexus.ota.R;
 
 import java.io.File;
 import java.io.FileNotFoundException;

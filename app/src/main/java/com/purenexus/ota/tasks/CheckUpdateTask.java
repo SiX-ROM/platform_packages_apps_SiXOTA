@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aospextended.ota.tasks;
+package com.purenexus.ota.tasks;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -28,16 +28,16 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 
-import com.aospextended.ota.MainActivity;
-import com.aospextended.ota.R;
-import com.aospextended.ota.configs.AppConfig;
-import com.aospextended.ota.configs.LinkConfig;
-import com.aospextended.ota.configs.OTAConfig;
-import com.aospextended.ota.configs.OTAVersion;
-import com.aospextended.ota.dialogs.WaitDialogHandler;
-import com.aospextended.ota.utils.OTAUtils;
-import com.aospextended.ota.xml.OTADevice;
-import com.aospextended.ota.xml.OTAParser;
+import com.purenexus.ota.MainActivity;
+import com.purenexus.ota.R;
+import com.purenexus.ota.configs.AppConfig;
+import com.purenexus.ota.configs.LinkConfig;
+import com.purenexus.ota.configs.OTAConfig;
+import com.purenexus.ota.configs.OTAVersion;
+import com.purenexus.ota.dialogs.WaitDialogHandler;
+import com.purenexus.ota.utils.OTAUtils;
+import com.purenexus.ota.xml.OTADevice;
+import com.purenexus.ota.xml.OTAParser;
 
 import org.xmlpull.v1.XmlPullParserException;
 

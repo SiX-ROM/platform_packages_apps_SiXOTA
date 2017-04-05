@@ -7,9 +7,9 @@
 # * Multiple devices can be added in the xml file
 # * You can define any tags that end with 'Url'. These tags will be added in the UI automatically 
 #
-ota_url=http://downloads.aospextended.com/ota/
+ota_url=https://raw.githubusercontent.com/PureNexus-CAF/OTA/master/ota.xml
 release_type=Stable
-device_name=ro.aex.device
+device_name=ro.product.device
 
 #
 # VERSION
@@ -34,5 +34,5 @@ device_name=ro.aex.device
 #
 version_source=ro.modversion
 version_delimiter=-
-version_position=2
+version_position=3
 version_format=yyyyMMdd

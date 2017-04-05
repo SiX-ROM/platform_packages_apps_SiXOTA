@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aospextended.ota.configs;
+package com.purenexus.ota.configs;
 
 import android.app.AlarmManager;
 import android.content.Context;
@@ -22,9 +22,9 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.commonsware.cwac.wakeful.WakefulIntentService;
-import com.aospextended.ota.R;
-import com.aospextended.ota.scheduler.OTAListener;
-import com.aospextended.ota.utils.OTAUtils;
+import com.purenexus.ota.R;
+import com.purenexus.ota.scheduler.OTAListener;
+import com.purenexus.ota.utils.OTAUtils;
 
 import java.text.DateFormat;
 import java.util.Date;

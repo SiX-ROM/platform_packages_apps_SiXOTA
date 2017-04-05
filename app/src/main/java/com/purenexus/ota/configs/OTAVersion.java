@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.aospextended.ota.configs;
+package com.purenexus.ota.configs;
 
 import android.content.Context;
 
-import com.aospextended.ota.utils.OTAUtils;
+import com.purenexus.ota.utils.OTAUtils;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

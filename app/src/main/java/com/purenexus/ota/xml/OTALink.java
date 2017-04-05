@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.aospextended.ota.xml;
+package com.purenexus.ota.xml;
 
 public class OTALink {
 

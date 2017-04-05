@@ -16,4 +16,4 @@
 #   public *;
 #}
 
--keep class com.aospextended.ota.core.OTAListener
+-keep class com.purenexus.ota.core.OTAListener

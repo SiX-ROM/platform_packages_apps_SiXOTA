@@ -1,4 +1,4 @@
-package com.aospextended.ota;
+package com.purenexus.ota;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
