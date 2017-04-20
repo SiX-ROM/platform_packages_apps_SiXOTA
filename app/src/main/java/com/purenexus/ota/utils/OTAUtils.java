@@ -113,7 +113,11 @@ public final class OTAUtils {
 
     public static void launchUrl(String url, Context context) {
         if (!url.isEmpty() && context != null) {
+        try {
             context.startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+        } catch (Exception e) {
+            logError(e);
+        }
         }
     }
 }
